@@ -9,22 +9,27 @@ body
 }
 
 header {
-    background-color: #7024;
+    background-color: #4d0000;
     color: white;
     text-align: center;
     padding: 1em;
 }
 
-section {
+section 
+{
     margin: 20px;
 }
 
-footer {
-    background-color: #7024;
+footer 
+{
+    background-color: #4d0000;
     color: white;
     text-align: center;
     padding: 1em;
-    position: fixed;
     bottom: 0;
     width: 100%;
+}
+img
+{
+	margin-right: 11px; /* Aggiungi spazio tra le immagini se desiderato */
 }
