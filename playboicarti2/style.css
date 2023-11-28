@@ -13,6 +13,8 @@ header {
     color: white;
     text-align: center;
     padding: 1em;
+	font-family: Impact;
+	font-size: 32px;
 }
 
 section 
@@ -28,8 +30,30 @@ footer
     padding: 1em;
     bottom: 0;
     width: 100%;
+	font-family: Impact;
+	font-weight: bold;
 }
 img
 {
-	margin-right: 11px; /* Aggiungi spazio tra le immagini se desiderato */
+	margin-right: 1px; /* Aggiungi spazio tra le immagini se desiderato */
 }
+button {
+    background-color: black;
+    color: white;
+    padding: 20px 40px;
+    font-size: 22px;
+    border: none; /* rimuovi il bordo */
+    border-radius: 5px; /* angoli arrotondati */
+    cursor: pointer;
+	transition: background-color 0.3s ease; /* animazione cambio colore */
+	font-family: Impact;
+}
+button:hover 
+ {
+    background-color: white; /* colore di sfondo al passaggio del mouse */
+	color:#4d0000;
+	font-weight: bold;
+ }
+
+
+
